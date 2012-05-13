@@ -12,7 +12,7 @@
 -spec generate_headers() -> list().
 generate_headers() ->
     [
-        {"Host", "api.twitter.com"},
+        {"Host", "stream.twitter.com:443"},
         {"User-Agent", "Twerl"}
     ].
 
